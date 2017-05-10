@@ -133,7 +133,7 @@ export default class Presentation extends React.Component {
           </Slide>
           {
             slides.map((slide, index) => (
-              <Slide key={`slide-${index}`} transition={["zoom"]} bgColor="grayBackground">
+              <Slide key={`slide-${index}`} transition={["slide"]} bgColor="grayBackground">
                 <div className="columns-layout">
                   <div className="image-wrapper with-shadow">
                     <Image src={slide.image} width="100%" height="100%"/>
